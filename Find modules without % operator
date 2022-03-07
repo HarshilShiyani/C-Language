@@ -1,0 +1,26 @@
+
+#include<stdio.h>
+void main()
+{  
+int i,a,b,z;
+printf("Enter upper Number=");
+  scanf("%d",&a);
+printf("Enter Lower Number=");
+scanf("%d",&b);
+z=a;
+
+for(i=0;a>=b;i++)
+{
+  
+a=a-b;
+}
+
+  printf("\n");
+printf("Reminder=%d\n",a);
+printf("Answer=%d",i);
+
+
+}
+		
+		 
+   
